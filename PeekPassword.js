@@ -47,7 +47,8 @@ Step 3:     Insert class "glyphicon-eye-close" (or "glyphicon-eye-open")
             REMARK: Make sure you have glyphicon available or this
                     won't work!..
                     Glyphicon in Bootstrap should be sufficient..
-Step 3:     Call document.EnablePeekPassword() somewhere in your code such
+
+Step 4:     Call document.EnablePeekPassword() somewhere in your code such
             that when it gets executed, page is already loaded and rendered..
             e.g.
                 // Pure JavaScript, cross-browser compatible 
@@ -80,8 +81,8 @@ Step 3:     Call document.EnablePeekPassword() somewhere in your code such
                     false
                 );
 
-Step 4:     ???
-Step 5:     Profit!..
+Step 5:     ???
+Step 6:     Profit!..
 
     License:
             License? What license? You mean that scrap paper which I spend
