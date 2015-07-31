@@ -47,26 +47,26 @@ Step 3:     Insert class "glyphicon-eye-close" (or "glyphicon-eye-open")
             REMARK: Make sure you have glyphicon available or this
                     won't work!..
                     Glyphicon in Bootstrap should be sufficient..
-Step 3:     Call document.EnablePeakPassword() somewhere in your code such
+Step 3:     Call document.EnablePeekPassword() somewhere in your code such
             that when it gets executed, page is already loaded and rendered..
             e.g.
                 // Pure JavaScript, cross-browser compatible 
                 (function() {
                     // your page initialization code here
                     // the DOM will be available here
-                    document.EnablePeakPassword();
+                    document.EnablePeekPassword();
                 })();
             e.g.
                 // Using jQuery..
                 $(document).ready(function() {
-                    document.EnablePeakPassword();
+                    document.EnablePeekPassword();
                 });
             e.g.
                 // this is one way of how jQuery does .ready()..
                 document.addEventListener(
                     'DOMContentLoaded',
                     function() {
-                        document.EnablePeakPassword();
+                        document.EnablePeekPassword();
                     },
                     false
                 );
@@ -75,7 +75,7 @@ Step 3:     Call document.EnablePeakPassword() somewhere in your code such
                 window.addEventListener(
                     'load',
                     function() {
-                        document.EnablePeakPassword();
+                        document.EnablePeekPassword();
                     },
                     false
                 );
@@ -106,7 +106,7 @@ function toggleAllChildrenClass(item, from, to) {
     }
 }
 
-document.EnablePeakPassword = function () {
+document.EnablePeekPassword = function () {
     var listOfItemToHook = document.getElementsByClassName("peek-password");
     for (var i = 0; i < listOfItemToHook.length; ++i) {
         var item = listOfItemToHook[i];
