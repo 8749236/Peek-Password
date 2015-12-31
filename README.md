@@ -39,10 +39,8 @@ that when it gets executed, page is already loaded and rendered..
 #### Step 6:     Profit!..
 
 #### License:
-            License? What license? You mean that scrap paper which I spend
-            whole day reading it and still yet to understand what it was
-            trying to say?
-            a.k.a. Free for all =D
+            'AS IS' License.
+            You are free to use, compile, modify, re-distribute, re-package this code or include into your own project or code.
 
 
 Note: Complete steps with code snippet are in the file..
